@@ -1,0 +1,56 @@
+.headers{
+    background-color: #0D0D2B;
+    padding-bottom: 75px;
+}
+.heading p{
+    margin-top: 160px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+
+}
+.para p{
+    color: white;
+    /* font-family: 'Rubik'; */
+}
+.circle{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border-radius: 50%;
+}
+.vector{
+    width: 5.99px;
+    height: 10.02px;
+}
+.btn p{
+    font-size: 18px;
+}
+.btns{
+     background: linear-gradient(89.71deg, #10CA83 1.95%, #10CA83 99.75%);
+    
+    border-radius: 40px;
+    outline: none;
+    padding: 0 20px;
+    border: 40px;
+}
+
+.image img{
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+@media screen and (max-width:992px) {
+    .text{
+        text-align: center;
+    }
+    .btns{
+        margin: auto;
+        width: 45%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}

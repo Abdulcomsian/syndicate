@@ -1,0 +1,26 @@
+.footer{
+    min-height: 50.09px;
+    background: #08223F;
+    backdrop-filter: blur(2px);
+
+}
+.footer-text{
+  
+    /* font-family: 'Rubik'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+
+}
+.footer-text-2{
+    /* font-family: 'Rubik'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #B6B6B6;
+}

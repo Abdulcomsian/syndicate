@@ -1,0 +1,19 @@
+.nav{
+    background-color: #0D0D2B;
+}
+.logo-img{
+    width: 123.55px;
+    height: 100px;
+}
+.navbar-toggler-icon{
+    padding: 10px;
+    color: white !important;
+    background-color: white !important;
+}
+
+.navbar-toggler{
+    border: 2px solid white !important;
+}
+
+
+

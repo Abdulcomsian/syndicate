@@ -1,0 +1,138 @@
+.plan{
+    background-color: #0D0D2B;
+}
+.heading-2 p{
+   
+    height: 54px;
+    /* font-family: 'Rubik'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+
+}
+.para-2 p{
+    /* width: 540.74px;
+
+    height: 54px; */
+    /* font-family: 'Poppins'; */
+    width: 60%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* line-height: 27px; */
+    text-align: center;
+    color: #E0E0E0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-align: center;
+  
+}
+.para-2{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.one{
+    border: 1px solid white;
+    display: grid;
+    place-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+.heading-3 {
+    width: 112px;
+    height: 54px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vector-2 img{
+    width: 53px;
+    height: 88px;
+}
+.para-3 p{
+    width: 319px;
+    height: 33px;
+    /* font-family: 'Rubik'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.para-4 p{
+    /* width: 349px; */
+    height: 66px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.77;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.para-5 p{
+    width: 71px;
+height: 54px;
+
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 54px;
+/* identical to box height, or 135% */
+
+letter-spacing: -0.02em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.btn-4{
+    background: linear-gradient(89.71deg, #10CA83 1.95%, #10CA83 99.75%);
+    border-radius: 20px;
+    padding: 5px 30px;
+    outline: none;
+    border: none;
+    margin-top: -20px;
+}
+.col-5{
+    box-sizing: border-box !important;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+/* .tabs{
+    display: grid;
+    place-items: center;
+} */

@@ -1,0 +1,57 @@
+.cards{
+    background-color: #0D0D2B;
+}
+.cards-heading{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.cards-heading p{
+        width: 269px;
+    height: 28px;
+    /* font-family: 'Rubik'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card-para {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.card-para p {
+    /* width: 510.03px;
+    height: 56px; */
+    /* font-family: 'Rubik'; */
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.credit-card{
+    box-sizing: border-box;
+    width: 200px;
+    height: 114px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+   display: grid;
+   place-items: center;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 10px;
+}
