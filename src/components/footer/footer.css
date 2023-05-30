@@ -1,26 +1,29 @@
-.footer{
-    min-height: 50.09px;
-    background: #08223F;
-    backdrop-filter: blur(2px);
-
+.footer {
+  min-height: 50.09px;
+  background: #08223f;
+  backdrop-filter: blur(2px);
 }
-.footer-text{
-  
-    /* font-family: 'Rubik'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'salt' on, 'liga' off;
-    color: #FFFFFF;
-
+.footer-text {
+  /* font-family: 'Rubik'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
 }
-.footer-text-2{
-    /* font-family: 'Rubik'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'salt' on, 'liga' off;
-    color: #B6B6B6;
+.footer-text-2 {
+  /* font-family: 'Rubik'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #b6b6b6;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-section {
+    flex-direction: column;
+  }
 }

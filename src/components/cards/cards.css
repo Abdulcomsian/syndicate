@@ -58,3 +58,10 @@
   height: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 600px) {
+  .plans-card {
+    flex-direction: column;
+    padding: 10px 53px;
+  }
+}

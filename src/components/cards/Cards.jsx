@@ -30,7 +30,7 @@ const Cards = () => {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mt-3 gap-5 mb-5">
+          <div className="d-flex justify-content-center mt-3 gap-5 mb-5 plans-card">
             <div className="credit-card">
               {" "}
               <img src={visa} />{" "}
