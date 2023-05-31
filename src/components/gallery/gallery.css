@@ -1,10 +1,7 @@
-.gallery{
-    background-color: #0D0D2B;
-}
+
 .gallery-heading h2{
-    width: 206px;
     height: 28px;
-    /* font-family: 'Rubik'; */
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -16,14 +13,11 @@
     flex-grow: 0;
 }
 .gallery-para p{
-    /* width: 510.03px; */
-    /* height: 56px; */
-    /* font-family: 'Rubik'; */
+    font-family: 'Rubik';
     width: 60%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 28px; */
     letter-spacing: 0.01em;
     color: #E0E0E0;
     flex: none;
@@ -42,19 +36,20 @@
 .links{
     width: 228px;
     box-sizing: border-box;
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
     cursor: pointer;
+    font-size: 16px;
 }
 .links-one{
     width: 228px;
     border-radius: 10px 0 0 10px;
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
     cursor: pointer;
 }
 .links-last{
     width: 228px;
     border-radius: 0 10px 10px 0;
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
     cursor: pointer;
 }
 .links p , .links-last p , .links-one p{
@@ -64,11 +59,7 @@
     width: 120px;
     height: 84px;
 }
-.bb{
- width: 100%;
- background-color: aquamarine;
 
-}
 .gallerys{
     display: grid;
     grid-template-columns: repeat(9,1fr);

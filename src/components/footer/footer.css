@@ -1,10 +1,10 @@
 .footer {
   min-height: 50.09px;
-  background: #08223f;
+  background: #08223F;
   backdrop-filter: blur(2px);
 }
 .footer-text {
-  /* font-family: 'Rubik'; */
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -13,7 +13,7 @@
   color: #ffffff;
 }
 .footer-text-2 {
-  /* font-family: 'Rubik'; */
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

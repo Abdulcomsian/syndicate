@@ -1,15 +1,11 @@
-.cards {
-  background-color: #0d0d2b;
-}
+
 .cards-heading {
   width: 100%;
   display: grid;
   place-items: center;
 }
 .cards-heading p {
-  width: 269px;
-  height: 28px;
-  /* font-family: 'Rubik'; */
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
   font-size: 34px;
@@ -27,9 +23,7 @@
   place-items: center;
 }
 .card-para p {
-  /* width: 510.03px;
-    height: 56px; */
-  /* font-family: 'Rubik'; */
+  font-family: 'Rubik';
   width: 50%;
   font-style: normal;
   font-weight: 400;

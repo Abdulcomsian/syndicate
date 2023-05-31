@@ -6,17 +6,10 @@ import shape from "../../Shape.png";
 import western from "../../Western Union Logo Vector 1.png";
 
 const Cards = () => {
-  // const [cardss]= useState([
-  //     {
-  //         title: 'card-1',
-  //         text : 'lorewm afas afsaf afasf',
-  //         image : "visa"
-  //     }
-  // ])
 
   return (
     <>
-      <div className="container-fluid cards pt-5 pb-5">
+      <div className="container-fluid  pt-5 pb-5">
         <div className="container">
           <div className="row mt-4">
             <div className="cards-heading">
@@ -49,13 +42,7 @@ const Cards = () => {
             </div>
           </div>
 
-          {/* <div className="cardss">
-                    <div className="cardd">
-                        <h1> card-1 </h1>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <img src={visa} alt="" />
-                    </div>
-                </div> */}
+
         </div>
       </div>
     </>

@@ -18,7 +18,7 @@ const Gallery = () => {
 
 
   return (
-    <div className="container-fluid gallery pt-5 pb-5">
+    <div className="container-fluid  pt-5 pb-5">
         <div className="container">
             <div className="row">
                 <div className="col">
