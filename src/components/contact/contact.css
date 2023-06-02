@@ -1,0 +1,43 @@
+.contact-heading {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .contact-heading p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .contact-logo {
+    flex-basis: 200px;
+    max-height: 105px;
+    padding: 20px;
+    flex-direction: column;
+    font-family: 'Rubik';
+    
+  }
+  
+  .contact-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+.name{
+    color: white;
+}
+
+  @media screen and (max-width: 600px) {
+    .contacts-ivan {
+      flex-direction: column;
+      padding: 10px 53px;
+    }
+  }

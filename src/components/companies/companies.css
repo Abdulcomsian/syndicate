@@ -1,8 +1,65 @@
 
-.logos{
+
+
+
+.cards-heading {
+    width: 100%;
     display: grid;
     place-items: center;
-}
-.logos img{
+  }
+  .cards-heading p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .card-para {
     width: 100%;
-}
+    display: grid;
+    place-items: center;
+  }
+  .card-para p {
+    font-family: 'Rubik';
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .comp-logo {
+    flex-basis: 200px;
+    max-height: 105px;
+    padding: 20px;
+  }
+  
+  .comp-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+
+
+
+
+  
+  @media screen and (max-width: 600px) {
+    .plans-card {
+      flex-direction: column;
+      padding: 10px 53px;
+    }
+  }
+  

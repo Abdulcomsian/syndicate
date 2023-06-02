@@ -21,6 +21,9 @@
   font-feature-settings: "salt" on, "liga" off;
   color: #b6b6b6;
 }
+.contact{
+  cursor: pointer;
+}
 
 @media screen and (max-width: 600px) {
   .footer-section {

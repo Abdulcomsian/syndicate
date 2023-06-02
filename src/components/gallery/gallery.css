@@ -28,7 +28,7 @@
  color: white;
   background: #F3F3F31A;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 10px;
     
 }
@@ -41,16 +41,18 @@
     font-size: 16px;
 }
 .links-one{
-    width: 228px;
+    width: 100%;
     border-radius: 10px 0 0 10px;
     font-family: 'Poppins';
     cursor: pointer;
+
 }
 .links-last{
-    width: 228px;
+    width: 100%;
     border-radius: 0 10px 10px 0;
     font-family: 'Poppins';
     cursor: pointer;
+
 }
 .links p , .links-last p , .links-one p{
     cursor: pointer;
@@ -66,3 +68,40 @@
     grid-template-rows: repeat(5,1fr);
     gap: 10px;
 }
+
+.tiki{
+    display: grid;
+    place-items: center;
+}
+
+.alpha-logo {
+    flex-basis: 200px;
+    max-height: 105px;
+    padding: 20px;
+  }
+  
+  .alpha-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+.selected{
+
+    background-color: #10CA83;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .gallery-card {
+      flex-direction: column;
+      padding: 10px 53px;
+    }
+  }
+
+
+
+
+

@@ -7,33 +7,45 @@ import Companies from './components/companies/Companies';
 import Cards from './components/cards/Cards';
 import Footer from './components/footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
     <>
-   
-      <Head/>
 
-      <div id="one-1">
-        <Header/>
+      <Head />
+
+      <div id="Za-nas">
+        <Header />
       </div>
 
-      <div id='two'>
-        <Plan/>
-      </div>      
-       <div id='three'>
-       <Gallery/>
-       </div>
-        <div id='four'>
-        <Companies/>
-        </div>
+      <div id='Paketi'>
+        <Plan />
+      </div>
+      <div id='Prosli-tiketi'>
+        <Gallery />
+      </div>
+      <div id='Kladionice'>
+        <Companies />
+      </div>
 
-        <div id='five'>
-        <Cards/>
-        </div>
-     
-     
-      <Footer/>
+      <div id='Metodi-Placanja'>
+        <Cards />
+      </div>
+
+      <div id='Kontakt'>
+      <Contact/>
+      </div>
+      
+
+      <Footer />
+
+
+
+
+
+
+
     </>
   );
 }

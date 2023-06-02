@@ -12,36 +12,33 @@ const Footer = () => {
           <div className="row justify-content-center align-items-center footer-section">
             <div className="col-sm-4 d-flex gap-5">
               <div className="footer-text">
-                {" "}
-                <p className="mb-0">Privacy & Terms</p>{" "}
+                <p className="mb-0">Privacy & Terms</p>
               </div>
               <div className="footer-text ">
-                {" "}
-                <p className="mb-0">Contact Us</p>{" "}
+                <p className="mb-0">Contact Us</p>
               </div>
             </div>
             <div className="col-sm-4">
               <div className="footer-text-2 d-flex align-items-center">
-                {" "}
                 <p className="mb-0">
-                  {" "}
+
                   2023 SYNDICATE. All rights reserved
-                </p>{" "}
+                </p>
               </div>
             </div>
             <div className="col-sm-2">
               <div className="row">
-                <div className="col">
-                  {" "}
-                  <img src={insta} />{" "}
+                <div className="col contact">
+
+                  <img src={insta} />
                 </div>
-                <div className="col">
-                  {" "}
-                  <img src={discord} />{" "}
+                <div className="col contact">
+
+                  <img src={discord} />
                 </div>
-                <div className="col">
-                  {" "}
-                  <img src={google} />{" "}
+                <div className="col contact">
+
+                  <img src={google} />
                 </div>
               </div>
             </div>

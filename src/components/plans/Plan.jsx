@@ -10,7 +10,8 @@ const Plan = () => {
           <div className="row">
             <div className="col">
               <div className="heading-2">
-                <p>Plan & Pricing </p>
+                {/* <p>Plan & Pricing </p> */}
+                <p> Paketi </p>
               </div>
               <div className="para-2">
                 <p>
@@ -23,61 +24,66 @@ const Plan = () => {
                 <div className="col-md-5 d-flex justify-content-center">
                   <div className="one ">
                     <div className="heading-3">
-                      <h2>Explore</h2>
+                    
+                      <h2> PREMIUM </h2>
                     </div>
-                    <div className="vector-2 mt-2">
+                    {/* <div className="vector-2 mt-2">
                       <img src={vecter2} alt="" />
+                    </div> */}
+                    <div className="para-5  mt-2">
+            
+                      <p> 50€</p>
                     </div>
-                    <div className="para-3 mt-3">
-                      <p>Lorem ipsum dolor sit amet</p>
+                    <div className="para-3 mt-1">
+               
+                      <p>premium pickovi</p>
                     </div>
-                    <div className="para-4 mt-4">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur. Commodo ut ut in
-                        nisi.
-                      </p>
+                    <div className="para-4 ">
+                
+                      <p>14 sporta</p>
+                      <p>24 tipstera</p>
                     </div>
-                    <div className="para-5 mt-4 ">
-                      <p>$10</p>
-                    </div>
-                    <div className="para-4">
+                  
+                    {/* <div className="para-4">
                       <p>Per month</p>
                     </div>
 
-                    <button className="btn-4" style={{ color: "white" }}>
-                      {" "}
-                      Buy Standard{" "}
-                    </button>
+                    <button className="btn-4 mt-3 " style={{ color: "white" }}>
+                      Buy Standard
+                    </button> */}
                   </div>
                 </div>
                 <div className="col-md-5 d-flex justify-content-center">
                   <div className="one ">
                     <div className="heading-3">
-                      <h2>Explore</h2>
+                      <h2>ALPHA</h2>
                     </div>
-                    <div className="vector-2 mt-2">
+                    {/* <div className="vector-2 mt-2">
                       <img src={vecter2} alt="" />
+                    </div> */}
+                    <div className="para-5 mt-4">
+                      <p>120€</p>
                     </div>
                     <div className="para-3 mt-3">
-                      <p>Lorem ipsum dolor sit amet</p>
+                      <p>alpha pickovi</p>
                     </div>
                     <div className="para-4 mt-4">
                       <p>
-                        Lorem ipsum dolor sit amet consectetur. Commodo ut ut in
-                        nisi.
+                      admin pickovi
                       </p>
+                      <p>A.I pickovi</p>
+                      <p>14 sporta</p>
+                      <p>40 tipstera</p>
                     </div>
-                    <div className="para-5 mt-4">
-                      <p>$10</p>
-                    </div>
-                    <div className="para-4">
+                    
+                    {/* <div className="para-4">
                       <p>Per month</p>
                     </div>
 
                     <button className="btn-4" style={{ color: "white" }}>
                       
                       Buy Standard
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
